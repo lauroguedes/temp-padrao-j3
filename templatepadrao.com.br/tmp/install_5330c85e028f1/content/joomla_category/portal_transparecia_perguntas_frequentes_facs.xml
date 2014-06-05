@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cck type="joomla_category" version="3.0" folder="content">
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2013 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>SEBLOD 3.x - www.seblod.com</description>
+	<joomla_category>
+		<parent_id />
+		<level />
+		<lft />
+		<rgt />
+		<alias>perguntas-frequentes-facs</alias>
+		<id />
+		<asset_id />
+		<path>perguntas-frequentes-facs</path>
+		<extension>com_content</extension>
+		<title>Perguntas Frequentes (FACs)</title>
+		<note />
+		<description />
+		<published>1</published>
+		<checked_out>0</checked_out>
+		<checked_out_time>0000-00-00 00:00:00</checked_out_time>
+		<access>1</access>
+		<params>{&quot;category_layout&quot;:&quot;&quot;,&quot;image&quot;:&quot;&quot;}</params>
+		<metadesc />
+		<metakey />
+		<metadata>{&quot;author&quot;:&quot;&quot;,&quot;robots&quot;:&quot;&quot;,&quot;tags&quot;:null}</metadata>
+		<created_user_id>244</created_user_id>
+		<created_time />
+		<modified_user_id />
+		<modified_time />
+		<hits>0</hits>
+		<language>*</language>
+		<version>1</version>
+	</joomla_category>
+	<acl>{&quot;core.create&quot;:{&quot;6&quot;:1,&quot;3&quot;:1},&quot;core.delete&quot;:{&quot;6&quot;:1},&quot;core.edit&quot;:{&quot;6&quot;:1,&quot;4&quot;:1},&quot;core.edit.state&quot;:{&quot;6&quot;:1,&quot;5&quot;:1},&quot;core.edit.own&quot;:{&quot;6&quot;:1,&quot;3&quot;:1}}</acl>
+	<app>portal_transparecia_perguntas_frequentes_facs</app>
+</cck>

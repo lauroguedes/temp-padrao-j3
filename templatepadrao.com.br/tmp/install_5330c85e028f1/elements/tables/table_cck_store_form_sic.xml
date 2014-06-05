@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cck type="tables">
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2013 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>SEBLOD 3.x - www.seblod.com</description>
+	<table>
+		<name>#__cck_store_form_sic</name>
+	</table>
+	<indexes>
+		<index1 column_name="id" index_type="BTREE" seq_in_type="1">PRIMARY</index1>
+	</indexes>
+	<fields>
+		<field1 type="int(11)" default="">id</field1>
+		<field2 type="varchar(255)" default="">sic_perfil</field2>
+		<field3 type="varchar(255)" default="">sic_nome</field3>
+		<field4 type="varchar(255)" default="">sic_endereco</field4>
+		<field5 type="varchar(255)" default="">sic_numero</field5>
+		<field6 type="varchar(255)" default="">sic_bairro</field6>
+		<field7 type="varchar(255)" default="">sic_cep</field7>
+		<field8 type="varchar(255)" default="">sic_cidade</field8>
+		<field9 type="varchar(255)" default="">sic_uf</field9>
+		<field10 type="varchar(255)" default="">sic_email</field10>
+		<field11 type="varchar(255)" default="">sic_telefone</field11>
+		<field12 type="text" default="">sic_mensagem</field12>
+		<field13 type="varchar(255)" default="">sic_recebimento_da_resposta</field13>
+		<field14 type="varchar(255)" default="">sic_cpf</field14>
+		<field15 type="varchar(255)" default="">sic_cnpj</field15>
+		<field16 type="varchar(255)" default="">sic_email_envia</field16>
+		<field17 type="varchar(255)" default="">sic_codigo</field17>
+		<field18 type="varchar(255)" default="">sic_situacao</field18>
+		<field19 type="text" default="">sic_resposta</field19>
+		<field20 type="varchar(255)" default="">sic_arquivo</field20>
+		<field21 type="varchar(255)" default="">sic_orgao_publico</field21>
+	</fields>
+</cck>

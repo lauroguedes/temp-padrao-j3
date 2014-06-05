@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cck type="fields">
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2013 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>SEBLOD 3.x - www.seblod.com</description>
+	<field>
+		<id />
+		<title>SIC Recebimento da Resposta</title>
+		<name>sic_recebimento_da_resposta</name>
+		<folder>portal_transparecia</folder>
+		<type>radio</type>
+		<description />
+		<published>1</published>
+		<label>Recebimento de Resposta</label>
+		<selectlabel> </selectlabel>
+		<display>3</display>
+		<required />
+		<validation />
+		<defaultvalue>Correspondência Eletrônica (e-mail)</defaultvalue>
+		<options>Correspondência Eletrônica (e-mail)||Correspondência Física (com custo)||Buscar/Consultar Pessoalmente</options>
+		<options2>{&quot;options&quot;:[]}</options2>
+		<minlength>0</minlength>
+		<maxlength>255</maxlength>
+		<size>32</size>
+		<cols>0</cols>
+		<rows>0</rows>
+		<ordering>0</ordering>
+		<sorting>0</sorting>
+		<divider />
+		<bool>1</bool>
+		<location />
+		<extended />
+		<style />
+		<script />
+		<bool2>1</bool2>
+		<bool3>0</bool3>
+		<bool4>0</bool4>
+		<bool5>0</bool5>
+		<bool6>0</bool6>
+		<bool7>0</bool7>
+		<bool8>1</bool8>
+		<css />
+		<attributes />
+		<storage>standard</storage>
+		<storage_location>joomla_article</storage_location>
+		<storage_table>#__cck_store_form_sic</storage_table>
+		<storage_field>sic_recebimento_da_resposta</storage_field>
+		<storage_field2 />
+		<storage_params />
+		<storages />
+		<checked_out>0</checked_out>
+		<checked_out_time>0000-00-00 00:00:00</checked_out_time>
+	</field>
+</cck>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cck type="tables">
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2013 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>SEBLOD 3.x - www.seblod.com</description>
+	<table>
+		<name>#__cck_store_form_editais_e_licitacoes</name>
+	</table>
+	<indexes>
+		<index1 column_name="id" index_type="BTREE" seq_in_type="1">PRIMARY</index1>
+	</indexes>
+	<fields>
+		<field1 type="int(11)" default="">id</field1>
+		<field2 type="varchar(255)" default="">el_tipo_documento</field2>
+		<field3 type="text" default="">el_objeto</field3>
+		<field4 type="varchar(255)" default="">el_num_modalidade</field4>
+		<field5 type="varchar(255)" default="">el_modalidade</field5>
+		<field6 type="varchar(255)" default="">el_num_processo</field6>
+		<field7 type="datetime" default="">el_data_abertura</field7>
+		<field8 type="varchar(255)" default="">el_arquivo</field8>
+		<field9 type="text" default="">el_grupo_arquivo</field9>
+		<field10 type="varchar(255)" default="">el_tipo</field10>
+	</fields>
+</cck>

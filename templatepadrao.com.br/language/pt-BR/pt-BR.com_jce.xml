@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="2.0" type="language" core="1" client="both" method="upgrade">
+	<name>Português(Brasil)</name>
+	<tag>pt-BR</tag>
+	<version>2.3.1</version>
+	<creationDate>16-03-2013</creationDate>
+	<author>Dennis Freitas</author>
+	<authorEmail>portais@tic.ufrj.br</authorEmail>
+	<authorUrl>www.tic.ufrj.br</authorUrl>
+	<copyright>(C) 2013. Traduzido pela equipe de portais da TIC/UFRJ.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Pacote de arquivos idioma pt-BR para versão JCE 2.3.X</description>
+		<site folder="language/pt-BR">
+		<file>pt-BR.com_jce.ini</file>
+		<file>pt-BR.com_jce_style.ini</file>
+		
+		<!-- // Assinatura dos arquivos de idioma do plugin // -->
+		<file>pt-BR.com_jce_caption.ini</file> 
+		<file>pt-BR.com_jce_emotions.ini</file>
+		<file>pt-BR.com_jce_filemanager.ini</file>
+		<file>pt-BR.com_jce_fullpage.ini</file>
+		<file>pt-BR.com_jce_iframe.ini</file>
+		<file>pt-BR.com_jce_imgmanager_ext.ini</file>
+		<file>pt-BR.com_jce_mediamanager.ini</file>
+		<file>pt-BR.com_jce_microdata.ini</file>
+		<file>pt-BR.com_jce_popups_rokbox.ini</file>
+		<file>pt-BR.com_jce_popups_widgetkit.ini</file>
+		<file>pt-BR.com_jce_templatemanager.ini</file>
+		
+		<!-- // Arquivos opcionais do plugin de idioma // -->
+		<file>pt-BR.com_jce_hsexpander.ini</file>
+		<file>pt-BR.com_jce_hsexpander.sys.ini</file>
+		<file>pt-BR.com_jce_hshtmlexpander.ini</file>
+		<file>pt-BR.com_jce_hshtmlexpander.sys.ini</file>
+		<file>pt-BR.com_jce_links_docmanlinks.ini</file>
+	</site>
+	<tinymce folder="components/com_jce/editor/tiny_mce">
+		<file>langs/br.js</file>
+		<file>langs/br_dlg.js</file>
+		<file>themes/advanced/langs/br.js</file>
+		<!-- // Assinatura dos arquivos de idioma do plugin // -->
+		<file>plugins/caption/langs/br.js</file>
+		<file>plugins/iframe/langs/br.js</file>
+		<file>plugins/iframe/langs/br_dlg.js</file>
+		<!-- // Arquivos opcionais do plugin de idioma // -->
+		<file>plugins/hsexpander/langs/br.js</file>
+		<file>plugins/hsexpander/langs/br_dlg.js</file>
+		<file>plugins/hshtmlexpander/langs/br.js</file>
+		<file>plugins/hshtmlexpander/langs/br_dlg.js</file>
+		<!-- // Adição da adaptação pt-BR // -->
+		<file>plugins/article/article.xml</file>
+		<file>plugins/clipboard/clipboard.xml</file>
+		<file>plugins/spellchecker/spellchecker.xml</file>
+	</tinymce>
+	<administration folder="administrator/language/pt-BR">
+		<file>pt-BR.com_jce.ini</file>
+		<file>pt-BR.com_jce.menu.ini</file>
+		<file>pt-BR.com_jce.sys.ini</file>
+		<file>pt-BR.plg_editors_jce.ini</file>
+		<file>pt-BR.plg_editors_jce.sys.ini</file>
+		<file>pt-BR.plg_quickicon_jcefilebrowser.ini</file>
+		<file>pt-BR.plg_quickicon_jcefilebrowser.sys.ini</file>
+		<!-- // Arquivos opcionais do plugin de idioma // -->
+		<file>pt-BR.plg_system_jcemediabox.ini</file>
+		<file>pt-BR.plg_system_jcemediabox.sys.ini</file>
+	</administration>
+</install>

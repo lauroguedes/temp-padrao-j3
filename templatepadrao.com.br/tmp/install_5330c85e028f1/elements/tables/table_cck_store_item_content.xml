@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cck type="tables">
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2013 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>SEBLOD 3.x - www.seblod.com</description>
+	<table>
+		<name>#__cck_store_item_content</name>
+	</table>
+	<indexes>
+		<index1 column_name="id" index_type="BTREE" seq_in_type="1">PRIMARY</index1>
+	</indexes>
+	<fields>
+		<field1 type="int(11)" default="">id</field1>
+		<field2 type="varchar(50)" default="">cck</field2>
+		<field3 type="varchar(255)" default="">sic_protocolo</field3>
+		<field4 type="varchar(255)" default="">editar</field4>
+		<field5 type="datetime" default="">sic_data_criacao</field5>
+		<field6 type="varchar(255)" default="">cc_documento</field6>
+	</fields>
+</cck>

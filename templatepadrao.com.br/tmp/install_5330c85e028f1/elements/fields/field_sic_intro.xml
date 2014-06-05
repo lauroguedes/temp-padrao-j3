@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cck type="fields">
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2013 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>SEBLOD 3.x - www.seblod.com</description>
+	<field>
+		<id />
+		<title>SIC Intro</title>
+		<name>sic_intro</name>
+		<folder>portal_transparecia</folder>
+		<type>freetext</type>
+		<description />
+		<published>1</published>
+		<label>Leia com atenção!</label>
+		<selectlabel> </selectlabel>
+		<display>3</display>
+		<required />
+		<validation />
+		<defaultvalue>&lt;p&gt;Para solicitar informações à Prefeitura Municipal de Sabinópolis, preencha o formulário abaixo, todos os campos são de preenchimento obrigatório.&lt;/p&gt;
+&lt;p&gt;Ao finalizar sua solicitação um &lt;strong&gt;número de protocolo&lt;/strong&gt; será gerado e enviado para seu e-mail.&lt;/p&gt;
+&lt;p&gt;Não esqueça de marcar a opção de como deseja receber sua resposta (e-mail, correspondência física ou receber pessoalmente).&lt;/p&gt;
+&lt;p&gt;Informações úteis para efetuar uma solicitação.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preencha o formulário de solicitação com todas as suas informações, sempre atualizadas, lembrando que, quanto mais completas as informações, mais garantido será o encaminhamento de sua resposta.&lt;/li&gt;
+&lt;li&gt;Procure fazer uma solicitação por formulário, exceto nos casos em que os assuntos sejam correlatos, isso agilizará e encurtará o tempo de espera pela resposta.&lt;/li&gt;
+&lt;li&gt;Evite fazer pedidos muito genéricos ou desproporcionais, pois isso poderá ocasionar uma negativa à sua solicitação.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Observação&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A maneira mais ágil para encaminhamento das respostas é o seu e-mail.&lt;/li&gt;
+&lt;li&gt;Faça sua solicitação de maneira clara e objetiva permitindo que o órgão compreenda a sua solicitação para lhe proporcionar a resposta correta.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Formulários para Impressão&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;files/formularios_sic/formulario_sic_pf.pdf&quot; target=&quot;_blank&quot;&gt;Formulário SIC - Pessoa Física&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;files/formularios_sic/formulario_sic_pj.pdf&quot; target=&quot;_blank&quot;&gt;Formulário SIC - Pessoa Jurídica&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;</defaultvalue>
+		<options />
+		<options2 />
+		<minlength>0</minlength>
+		<maxlength>255</maxlength>
+		<size>32</size>
+		<cols>0</cols>
+		<rows>0</rows>
+		<ordering>0</ordering>
+		<sorting>0</sorting>
+		<divider />
+		<bool>0</bool>
+		<location />
+		<extended />
+		<style />
+		<script />
+		<bool2>0</bool2>
+		<bool3>0</bool3>
+		<bool4>0</bool4>
+		<bool5>0</bool5>
+		<bool6>0</bool6>
+		<bool7>0</bool7>
+		<bool8>1</bool8>
+		<css />
+		<attributes />
+		<storage>none</storage>
+		<storage_location />
+		<storage_table />
+		<storage_field>sic_intro</storage_field>
+		<storage_field2 />
+		<storage_params />
+		<storages />
+		<checked_out>0</checked_out>
+		<checked_out_time>0000-00-00 00:00:00</checked_out_time>
+	</field>
+</cck>

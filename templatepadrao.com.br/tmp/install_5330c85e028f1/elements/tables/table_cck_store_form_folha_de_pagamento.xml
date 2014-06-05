@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cck type="tables">
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2013 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>SEBLOD 3.x - www.seblod.com</description>
+	<table>
+		<name>#__cck_store_form_folha_de_pagamento</name>
+	</table>
+	<indexes>
+		<index1 column_name="id" index_type="BTREE" seq_in_type="1">PRIMARY</index1>
+	</indexes>
+	<fields>
+		<field1 type="int(11)" default="">id</field1>
+		<field2 type="datetime" default="">fp_referencia</field2>
+		<field3 type="varchar(255)" default="">fp_valor_total</field3>
+		<field4 type="varchar(255)" default="">fp_planilha</field4>
+		<field5 type="varchar(255)" default="">fp_planilha2</field5>
+	</fields>
+</cck>

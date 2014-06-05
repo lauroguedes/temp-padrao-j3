@@ -1,0 +1,729 @@
+/*#################### CONF-GLOBAL ####################*/
+body{
+	
+}
+h1{
+	
+}
+h2{
+	
+}
+h3{
+	
+}
+h4{
+
+}
+/*configurações do título da página*/
+.component-content .item-page h1 {
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+.title, .component-content h1 {
+    border-bottom: 1px solid #D1D1D1;
+    box-shadow: 0 1px 0 #FFFFFF;
+    color: #303030;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+/*alinhamento padrão do texto*/
+.component-content .item-page p{
+	text-align: justify;
+}
+/*borda das imagens*/
+.borda{
+	border: 1px solid #ccc;
+	box-shadow: 0 0 3px #999;
+	-moz-box-shadow: 0 0 3px #999;
+	-o-box-shadow: 0 0 3px #999;
+	-webkit-box-shadow: 0 0 3px #999;
+	-ms-box-shadow: 0 0 3px #999;
+	border-radius: 4px;
+	-o-box-shadow: 0 0 3px #999;
+	-webkit-box-shadow: 0 0 3px #999;
+	-ms-box-shadow: 0 0 3px #999;
+	-moz-box-shadow: 0 0 3px #999;
+	padding: 3px;
+}
+/*legenda da imagem dos artigos*/
+.img_caption{
+	text-align: center !important;
+	font-size: 12px;
+	font-style: italic;
+}
+/*configuração do editor front-end*/
+.component-content .edit #adminForm fieldset{
+	background: rgb(255,255,255);
+	background: rgba(255,255,255,0.7);
+	-moz-background: rgba(255,255,255,0.7);
+	-webkit-background: rgba(255,255,255,0.7);
+	-ms-background: rgba(255,255,255,0.7);
+	-o-background: rgba(255,255,255,0.7);
+}
+#adminForm .btn-toolbar{
+	text-align: right;
+}
+/*configuração da página offline*/
+#fundo{
+	background: #ffffff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#e5e5e5 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.geral-offline .box1{
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 6%;
+	box-shadow: 0 0 60px #ccc;
+	-moz-box-shadow: 0 0 60px #ccc;
+	-webkit-box-shadow: 0 0 60px #ccc;
+	-ms-box-shadow: 0 0 60px #ccc;
+	-o-box-shadow: 0 0 60px #ccc;
+}
+.img-offline, .geral-offline .sitename, .geral-offline .offline{
+	text-align: center;
+}
+.img-offline img{
+	max-width: 256px;
+}
+.geral-offline .title{
+	font-size: 24px;
+	padding-bottom: 5px;
+}
+/*========================================================*/
+
+/*#################### CONF-BARRA DE ADMINISTRAÇÃO (LOGIN) ####################*/
+.login-user{
+
+}
+#simple-close{
+	color: #fff;
+	position: relative;
+	top:-27px;
+	left: -18px;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+#simple-close:hover{
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-o-opacity: 0.5;
+	-webkit-opacity: 0.5;
+	-ms-opacity: 0.5;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+
+/*#################### CONF-CABEÇALHO ####################*/
+/*##START-cabeçalho geral [pai]*/
+#rt-top-surround{
+	
+}
+	/*##START-topo [filho]*/
+	#rt-top{
+		
+	}
+	/*##END*/
+	/*##START-cabeçalho [filho]*/
+	#rt-header{
+		
+	}
+	/*##END*/
+/*##END*/
+
+/*#################### CONF-MENSAGENS-SISTEMA ####################*/
+/*##START-mensagens do sitema*/
+#rt-drawer{
+	
+}
+/*##END*/
+
+/*#################### CONF-VITRINE ####################*/
+/*##START-vitrine [pai]*/
+#rt-showcase{
+	
+}
+	/*##START-vitrine [filho]*/
+	#rt-showcase-pattern{
+		
+	}
+	/*##END*/
+/*##END*/
+
+/*#################### CONF-CONTEÚDO-PRINCIPAL ####################*/
+/*##START-carregamento da página [pai]*/
+#rt-transition{
+	
+}
+	/*##START-corpo principal da página [filha]*/
+	#rt-mainbody-surround{
+		
+	}
+		/*##START-características [neto]*/
+		#rt-feature{
+			
+		}
+		/*##END*/
+		/*##START-utilidades [neto]*/
+		#rt-utility{
+			
+		}
+		/*##END*/
+		/*##START-migalhas de pão [neto]*/
+		#rt-breadcrumbs{
+			
+		}
+		.migalhas{
+			margin-bottom: 0;
+			margin-top: 10px;
+			background: #fdfdfd;
+			box-shadow: 0 0 5px #ccc inset;
+			-moz-box-shadow: 0 0 5px #ccc inset;
+			-o-box-shadow: 0 0 5px #ccc inset;
+			-webkit-box-shadow: 0 0 5px #ccc inset;
+			-ms-box-shadow: 0 0 5px #ccc inset;
+		}
+		.breadcrumbmigalhas{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		.breadcrumbmigalhas li{
+			float: left;
+		}
+		/*##END*/
+		/*##START-topo do corpo da página [neto]*/
+		#rt-maintop{
+			
+		}
+		/*##END*/
+		/*##START-largura completa [neto]*/
+		#rt-fullwidth{
+			
+		}
+		/*##END*/
+		/*##START-conteudo do topp [neto]*/
+		#rt-content-top{
+
+		}
+		/*##END*/
+		/*##START-configuração dos containers [neto]*/
+		#rt-container{
+			
+		}
+		#rt-main .rt-block{
+			padding-top: 0;
+		}
+		/*configuração dos botões de imprimir e e-mail dos artigos*/
+		.btn-acao{
+			
+		}
+		/*configuração dos botões de acessibilidade*/
+		#rvfs-controllers{
+			position: relative;
+			left: 18px;
+		}
+		/*configuração das informações de publicação*/
+		.article-info .createdby{
+
+		}
+		.article-info .published{
+
+		}
+		.article-info .category-name{
+
+		}
+		.article-info .create{
+
+		}
+		.article-info .modified{
+
+		}
+		.article-info .hits{
+
+		}
+		.createdby:before, .category-name:before, .published:before, .modified:before, .create:before, .hits:before{
+			content: none !important;
+		}
+		.article-info span{
+			margin-right: 10px;
+			border-right: 1px solid #ccc;
+			padding-right: 5px;
+		}
+		.component-content .page-header{
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+		.content-links .btn-group{
+			margin: 0 0 10px 0;
+		}
+		.info-baixo{
+			border-top: 1px dashed #ccc;
+		}
+		.info-cima{
+			border-bottom: 1px dashed #ccc;
+		}
+		/*configuração da imagem de introdução do artigo*/
+		.none{
+			float: left !important;
+			margin-right: 20px !important;	
+		}
+		.none .caption{
+			border: 1px solid #ccc;
+			box-shadow: 0 0 3px #999;
+			-moz-box-shadow: 0 0 3px #999;
+			-o-box-shadow: 0 0 3px #999;
+			-webkit-box-shadow: 0 0 3px #999;
+			-ms-box-shadow: 0 0 3px #999;
+			border-radius: 4px;
+			-o-box-shadow: 0 0 3px #999;
+			-webkit-box-shadow: 0 0 3px #999;
+			-ms-box-shadow: 0 0 3px #999;
+			-moz-box-shadow: 0 0 3px #999;
+			padding: 3px;
+		}
+		/*configuração dos botões de anterior e próximo*/
+		.pager .previous{
+
+		}
+		.pager .next{
+			
+		}
+		/*##END*/
+		/*##START-conteudo da base [neto]*/
+		#rt-content-bottom{
+
+		}
+		/*##END*/
+		/*##START-base do corpo da página [neto]*/
+		#rt-mainbottom{
+			
+		}
+		/*##END*/
+		/*##START-extenções [neto]*/
+		#rt-extensions{
+
+		}
+		/*##END*/
+	/*##END*/
+/*##END*/
+
+/*#################### CONF-BASE-PÁGINA ####################*/
+/*##START-base da página*/
+#rt-bottom{
+	
+}
+/*##END*/
+
+/*#################### CONF-RODAPÉ ####################*/
+/*##START-rodapé principal [pai]*/
+#rt-footer-surround{
+	
+}
+	/*##START-rodapé [filho]*/
+	#rt-footer{
+		
+	}
+	/*##END*/
+	/*##START-copyright [filho]*/
+	#rt-copyright{
+		
+	}
+	#rt-copyright .rt-block{
+		margin: 0;
+		padding: 10px 0;
+	}
+	.text-copy{
+		text-align: center;
+	}
+	.rt-dev-box{
+		text-align: right;
+	}
+	.logo-rodape{
+		text-align: left;
+	}
+	/*CONFIGURAÇÃO DA SETA QUE LEVA AO TOPO*/
+	.setatopo{
+		margin: 0;
+		padding: 0;
+		position: fixed;
+		right: 5px;
+		z-index: 100;
+		bottom: -30px;
+		display: none;
+		transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	}
+	#gantry-totop{
+		background: #333333;
+		color: #FFF;
+		border: none;
+		border-radius: 0;
+		-moz-border-radius: 0;
+		-o-border-radius: 0;
+		-webkit-border-radius: 0;
+		-ms-border-radius: 0;
+		transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	}
+	#gantry-totop:hover{
+		background: #5F5F5F;
+		transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	}
+	/*##END*/
+/*##END*/
+
+/*#################### CONF-DEBUG ####################*/
+/*##START-visualização de debug*/
+#rt-debug{
+	
+}
+/*##END
+
+/*#################### CONF-MENU ####################*/
+/***************************** ESTRUTURAÇÃO DO MENU **********************/
+.mod-menu{
+	margin: 0;
+	padding: 0;
+}
+/*CORPO DO MENU A UL*/
+.mod-menu .gf-menu{
+  /*margin: 0px auto 0 !important;*/
+}
+/*INTENS DO CORPO DO MENU O LI*/
+.mod-menu .gf-menu li{  
+    /*border: none !important;
+    border-right: 1px solid #29A7DF !important;
+    margin-right: 0 !important;
+    box-shadow: 1px 0 0 #1A6B8F;
+    background: url("../images/icons/barra_menu.jpg") no-repeat top center;
+    background-position: top right 200px;
+    transition: all 0.3s linear;*/
+}
+/*COLORAÇÃO DO BOTÃO ATIVO*/
+.mod-menu .gf-menu.l1 > li.active{
+    /*background: #1BA3DF !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;*/
+}
+/*ITENS DO LI TAG A (CSS ESTRUTURA)*/
+.mod-menu .gf-menu.l1 > li > .item{
+  /*padding: 12px 23px !important;
+  line-height: normal !important;*/
+}
+/*ITENS DO LI TAG A (CSS CORES)*/
+.mod-menu .gf-menu .item{
+  /*color: #fff !important;
+  text-shadow: 1px 1px 1px #666 !important;*/
+}
+/*SETA DO DROPDOWN MENU HORIZONTAL*/
+.mod-menu .gf-menu li.parent > .item:after{
+  /*color: #fff !important;
+  margin-top: -7px !important;*/
+}
+/*EVENTO DE HOVER NO LI A (COLORAÇÃO)*/
+.mod-menu .gf-menu li:hover > .item{
+  /*color: #fff !important;*/
+}
+/*EVENTO DE HOVER NO LI (ESTRUTURA)*/
+.mod-menu .gf-menu li:hover, .mod-menu .gf-menu li.active:hover{
+  /*background: #1BA3DF url("../images/icons/barra_menu.jpg") no-repeat top center !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding-top: 0 !important;
+  transition: all 0.3s linear;*/
+}
+/*CONFIGURAÇÃO DO DROPDOWN*/
+/*CORPO DOS MENUS*/
+.mod-menu .gf-menu .dropdown{
+  /*background: #1BA3DF !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: 2px 2px 2px #999 !important;
+  padding: 0 !important;*/
+}
+/*CONFIGURAÇÃO DA BORDA FIXA DO MENU DROPDOWN*/
+.mod-menu .border-fixer{
+  /*display: none !important;*/
+}
+/*CONFIGURAÇÃO DOS ITENS DO DROPDOWN*/
+.mod-menu .gf-menu .dropdown li{
+  /*border: none !important;
+  border-bottom: 1px solid #2CB3EF !important;
+    margin: 0 !important;
+    box-shadow: 0 1px 0 #0089C7;
+    padding: 5px !important;
+    transition: all 0.3s linear;*/
+}
+/*CONFIGURAÇÃO DO PLANO DE FUNDO DO MENU DROPDOWN*/
+.mod-menu .gf-menu .dropdown li:hover{
+    /*background: #0089C7 url("../images/icons/barra_menu.jpg") no-repeat top center !important;*/
+}
+/*TIRANDO A IMPERFEIÇÃO QUANDO PASSA O MOUSE POR CIMA DO MENU (Borda)*/
+.mod-menu .gf-menu .dropdown ul li .item{
+  /*border: none !important;*/
+}
+/*CONFIGURAÇÃO INTERNA DO LI ITEM DO DROPDOWN*/
+.mod-menu .gf-menu .dropdown ul li:hover > .item{
+  /*background: none !important;
+  border: none !important;
+  box-shadow: none !important; */
+}
+
+/*#################### CONF-ACESSO-INFORMAÇÃO ####################*/
+/***************************** ESTRUTURAÇÃO DO MENU **********************/
+.mod-menu-ai{
+	margin: 0;
+	padding: 0;
+}
+/*CORPO DO MENU A UL*/
+.mod-menu-ai .gf-menu{
+  /*margin: 0px auto 0 !important;*/
+}
+/*INTENS DO CORPO DO MENU O LI*/
+.mod-menu-ai .gf-menu li{  
+  border:1px solid #cbcbcb;
+  background:#FCB029;
+  padding-top:0;
+  border-radius:30px;
+  -moz-border-radius:30px;
+  -o-border-radius:30px;
+  -webkit-border-radius:30px;
+  -ms-border-radius:30px;
+  border-top:0;
+  -webkit-box-shadow:inset 0px 1px 0px #cbcbcb, inset 0px 2px 0px #ffffff;
+  -moz-box-shadow:inset 0px 1px 0px #cbcbcb, inset 0px 2px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px #cbcbcb, inset 0px 2px 0px #ffffff;
+  margin-right: 12px;
+  margin-bottom: 30px;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+}
+/*COLORAÇÃO DO BOTÃO ATIVO*/
+.mod-menu-ai .gf-menu.l1 > li.active{
+   border:1px solid #cbcbcb;
+  background:#0F7A44;
+  padding-top:0;
+  border-radius:30px;
+  -moz-border-radius:30px;
+  -o-border-radius:30px;
+  -webkit-border-radius:30px;
+  -ms-border-radius:30px;
+  border-top:0;
+  -webkit-box-shadow:inset 0px 1px 0px #cbcbcb, inset 0px 2px 0px #ffffff;
+  -moz-box-shadow:inset 0px 1px 0px #cbcbcb, inset 0px 2px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px #cbcbcb, inset 0px 2px 0px #ffffff;
+  margin-right: 12px;
+  margin-bottom: 30px;
+}
+/*ITENS DO LI TAG A (CSS ESTRUTURA)*/
+.mod-menu-ai .gf-menu.l1 > li > .item{
+  /*padding: 12px 23px !important;
+  line-height: normal !important;*/
+}
+/*ITENS DO LI TAG A (CSS CORES)*/
+.mod-menu-ai .gf-menu .item{
+  color: #fff !important;
+  text-shadow: 0 0 3px #ccc !important;
+}
+.mod-menu-ai .gf-menu .item:hover{
+	color: #fff !important;
+	text-shadow: none !important;
+}
+/*SETA DO DROPDOWN MENU HORIZONTAL*/
+.mod-menu-ai .gf-menu li.parent > .item:after{
+  /*color: #fff !important;
+  margin-top: -7px !important;*/
+}
+/*EVENTO DE HOVER NO LI A (COLORAÇÃO)*/
+.mod-menu-ai .gf-menu li:hover > .item{
+  /*color: #fff !important;*/
+}
+/*EVENTO DE HOVER NO LI (ESTRUTURA)*/
+.mod-menu-ai .gf-menu li:hover, .mod-menu-ai .gf-menu li.active:hover{
+  background:#0F7A44;
+  border-radius:30px;
+  -moz-border-radius:30px;
+  -o-border-radius:30px;
+  -webkit-border-radius:30px;
+  -ms-border-radius:30px;
+  padding-top:0;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+}
+/*CONFIGURAÇÃO DO DROPDOWN*/
+/*CORPO DOS MENUS*/
+.mod-menu-ai .gf-menu .dropdown{
+  /*background: #1BA3DF !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: 2px 2px 2px #999 !important;
+  padding: 0 !important;*/
+}
+/*CONFIGURAÇÃO DA BORDA FIXA DO MENU DROPDOWN*/
+.mod-menu-ai .border-fixer{
+  /*display: none !important;*/
+}
+/*CONFIGURAÇÃO DOS ITENS DO DROPDOWN*/
+.mod-menu-ai .gf-menu .dropdown li{
+  /*border: none !important;
+  border-bottom: 1px solid #2CB3EF !important;
+    margin: 0 !important;
+    box-shadow: 0 1px 0 #0089C7;
+    padding: 5px !important;
+    transition: all 0.3s linear;*/
+}
+/*CONFIGURAÇÃO DO PLANO DE FUNDO DO MENU DROPDOWN*/
+.mod-menu-ai .gf-menu .dropdown li:hover{
+    /*background: #0089C7 url("../images/icons/barra_menu.jpg") no-repeat top center !important;*/
+}
+/*TIRANDO A IMPERFEIÇÃO QUANDO PASSA O MOUSE POR CIMA DO MENU (Borda)*/
+.mod-menu-ai .gf-menu .dropdown ul li .item{
+  /*border: none !important;*/
+}
+/*CONFIGURAÇÃO INTERNA DO LI ITEM DO DROPDOWN*/
+.mod-menu-ai .gf-menu .dropdown ul li:hover > .item{
+  /*background: none !important;
+  border: none !important;
+  box-shadow: none !important; */
+}
+/*CONFIGURAÇÃO DO MÓDULO DE PESQUISA*/
+.pesquisa-ai{
+	background: rgb(255,255,255);
+	background: rgba(255,255,255,0.7);
+	-moz-background: rgba(255,255,255,0.7);
+	-webkit-background: rgba(255,255,255,0.7);
+	-ms-background: rgba(255,255,255,0.7);
+	-o-background: rgba(255,255,255,0.7);
+	padding-top: 15px !important;
+	padding-bottom: 0;
+}
+.pesquisa-ai .button .btn .btn-primary{
+
+}
+.pesquisa-ai .title{
+
+}
+
+/*CONFIGURAÇÃO DO MÓDULO DE NOVO*/
+.btn-new{
+	margin:10px 10px 0 10px;
+	padding: 0;
+}
+
+/*CONFIGURAÇÃO RESPOSTA DO FAC*/
+.fac_resposta{
+	background: rgb(255,255,255);
+	background: rgba(255,255,255,0.8);
+	padding: 10px;
+	border: 1px dashed #ccc;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-ms-border-radius: 4px;
+}
+
+
+/*#################### CONF-COMPONENTES ####################*/
+/*PÁGINA DE CONTATO*/
+.contact-pg{
+
+}
+.component-content .contact-address{
+	margin: 0;
+}
+.contact-form{
+	border-left: 1px dashed #ccc;
+}
+.btn-form{
+	text-align: right;
+}
+.contact-pg .thumbnail{
+	border: none;
+	box-shadow: none;
+	position: relative;
+	top: 70px;	
+}
+
+/*GALERIA DE FOTOS*/
+.gallery .jg_search form{
+	margin: 0;
+}
+.gallery .jg_photo{
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+.gallery .jg_photo:hover{
+	transform: scale(1.1) rotate(2deg);
+	-moz-transform: scale(1.1) rotate(2deg);
+	-webkit-transform: scale(1.1) rotate(2deg);
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	-webkit-opacity: 0.8;
+	-o-opacity: 0.8;
+	-ms-opacity: 0.8;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+.gallery .jg_back{
+	text-align: center;
+}
+
+/*#################### CONF-PLUGINS ####################*/
+.bt-social-share{
+	position: relative;
+	left: 67%;
+}
+
+/*#################### CONF-MÓDULOS ####################*/
+/*FORMULÁRIO DE BUSCA*/
+.form-limit{
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 10px !important;
+}
+.result-created{
+	border-bottom: 1px dashed #ccc;
+}
+
+
+/*#################### CONF-MAPA-CONTATO ####################*/
+#rt-mapa{
+	position: relative;
+}
+.mapa{
+	position: absolute;
+	top: -475px;
+	width: 380px; 
+}

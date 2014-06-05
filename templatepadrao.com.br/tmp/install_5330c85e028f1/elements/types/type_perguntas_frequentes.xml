@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cck type="types">
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2013 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>SEBLOD 3.x - www.seblod.com</description>
+	<type>
+		<id />
+		<asset_id />
+		<title>Perguntas Frequentes</title>
+		<name>perguntas_frequentes</name>
+		<alias />
+		<folder>portal_transparecia</folder>
+		<template_admin>seb_one - perguntas_frequentes (admin)</template_admin>
+		<template_site>seb_one - perguntas_frequentes (site)</template_site>
+		<template_content>seb_one - perguntas_frequentes (content)</template_content>
+		<template_intro />
+		<description />
+		<indexed>intro</indexed>
+		<published>1</published>
+		<options_admin>{&quot;message_style&quot;:&quot;message&quot;,&quot;message&quot;:&quot;&quot;,&quot;data_integrity_excluded&quot;:&quot;&quot;,&quot;message_style_no_access&quot;:&quot;error&quot;,&quot;action_no_access&quot;:&quot;redirection&quot;,&quot;message_no_access&quot;:&quot;&quot;,&quot;redirection_url_no_access&quot;:&quot;index.php?option=com_users&amp;view=login&quot;,&quot;stages&quot;:&quot;1&quot;,&quot;validation_position&quot;:&quot;&quot;,&quot;validation_scroll&quot;:&quot;&quot;,&quot;validation_color&quot;:&quot;&quot;,&quot;validation_background_color&quot;:&quot;&quot;}</options_admin>
+		<options_site>{&quot;message_style&quot;:&quot;message&quot;,&quot;redirection&quot;:&quot;current&quot;,&quot;message&quot;:&quot;&quot;,&quot;redirection_itemid&quot;:&quot;&quot;,&quot;redirection_url&quot;:&quot;&quot;,&quot;data_integrity_excluded&quot;:&quot;&quot;,&quot;show_form_title&quot;:&quot;1&quot;,&quot;tag_form_title&quot;:&quot;h2&quot;,&quot;class_form_title&quot;:&quot;&quot;,&quot;show_form_desc&quot;:&quot;1&quot;,&quot;message_style_no_access&quot;:&quot;error&quot;,&quot;action_no_access&quot;:&quot;redirection&quot;,&quot;message_no_access&quot;:&quot;&quot;,&quot;redirection_url_no_access&quot;:&quot;index.php?option=com_users&amp;view=login&quot;,&quot;stages&quot;:&quot;1&quot;,&quot;validation_position&quot;:&quot;&quot;,&quot;validation_scroll&quot;:&quot;&quot;,&quot;validation_color&quot;:&quot;&quot;,&quot;validation_background_color&quot;:&quot;&quot;}</options_site>
+		<options_content>{&quot;title&quot;:&quot;&quot;,&quot;typo&quot;:&quot;1&quot;,&quot;sef&quot;:&quot;&quot;}</options_content>
+		<options_intro>{}</options_intro>
+		<location />
+		<storage_location>joomla_article</storage_location>
+		<version>30</version>
+		<checked_out>0</checked_out>
+		<checked_out_time>0000-00-00 00:00:00</checked_out_time>
+	</type>
+	<acl>{&quot;core.create&quot;:[],&quot;core.create.max.parent&quot;:{&quot;8&quot;:0},&quot;core.create.max.parent.author&quot;:{&quot;8&quot;:0},&quot;core.create.max.author&quot;:{&quot;8&quot;:0},&quot;core.delete&quot;:[],&quot;core.delete.own&quot;:[],&quot;core.edit&quot;:[],&quot;core.edit.own&quot;:[]}</acl>
+	<fields>
+		<field1 client="admin" ordering="1" label="Ação" variation="" variation_override="" required="required" required_alert="Campo Obrigatório!" validation="" validation_options="{&quot;alert&quot;:&quot;&quot;}" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">art_state</field1>
+		<field2 client="admin" ordering="2" label="" variation="" variation_override="" required="required" required_alert="Campo Obrigatório!" validation="" validation_options="{&quot;alert&quot;:&quot;&quot;}" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">fac_pergunta</field2>
+		<field3 client="admin" ordering="3" label="" variation="" variation_override="" required="required" required_alert="Campo Obrigatório!" validation="" validation_options="{&quot;alert&quot;:&quot;&quot;}" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">fac_resposta</field3>
+		<field4 client="admin" ordering="4" label="" variation="hidden" variation_override="" required="required" required_alert="Campo Obrigatório!" validation="" validation_options="{&quot;alert&quot;:&quot;&quot;}" link="" link_options="" live="" live_options="" live_value="portal_transparecia_perguntas_frequentes_facs" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">art_catid</field4>
+		<field5 client="admin" ordering="5" label="" variation="hidden" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">editar</field5>
+		<field6 client="admin" ordering="6" label="" variation="hidden" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">fac_alias</field6>
+		<field7 client="content" ordering="1" label="" variation="" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="1" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">fac_resposta</field7>
+		<field8 client="site" ordering="1" label="Ação" variation="" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">art_state</field8>
+		<field9 client="site" ordering="2" label="" variation="" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">fac_pergunta</field9>
+		<field10 client="site" ordering="3" label="" variation="" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">fac_resposta</field10>
+		<field11 client="site" ordering="4" label="" variation="hidden" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">editar</field11>
+		<field12 client="site" ordering="5" label="" variation="hidden" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="portal_transparecia_perguntas_frequentes_facs" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">art_catid</field12>
+		<field13 client="site" ordering="6" label="Salvar" variation="" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">button_submit</field13>
+		<field14 client="site" ordering="7" label="" variation="hidden" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">fac_alias</field14>
+	</fields>
+	<positions>
+		<position1 client="admin" legend="" variation="" variation_options="" width="" height="" css="">clear</position1>
+		<position2 client="admin" legend="" variation="" variation_options="" width="" height="" css="">mainbody</position2>
+		<position3 client="content" legend="" variation="" variation_options="" width="" height="" css="">clear</position3>
+		<position4 client="content" legend="" variation="" variation_options="" width="" height="" css="">mainbody</position4>
+		<position5 client="site" legend="" variation="" variation_options="" width="" height="" css="">clear</position5>
+		<position6 client="site" legend="" variation="" variation_options="" width="" height="" css="">mainbody</position6>
+	</positions>
+</cck>

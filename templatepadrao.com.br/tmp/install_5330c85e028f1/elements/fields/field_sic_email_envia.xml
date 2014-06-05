@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cck type="fields">
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2013 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>SEBLOD 3.x - www.seblod.com</description>
+	<field>
+		<id />
+		<title>SIC E-mail Envia</title>
+		<name>sic_email_envia</name>
+		<folder>portal_transparecia</folder>
+		<type>email</type>
+		<description />
+		<published>1</published>
+		<label>E-mail Envia</label>
+		<selectlabel> </selectlabel>
+		<display>3</display>
+		<required />
+		<validation />
+		<defaultvalue />
+		<options />
+		<options2>{&quot;send&quot;:&quot;1&quot;,&quot;send_field&quot;:&quot;&quot;,&quot;from&quot;:&quot;3&quot;,&quot;from_param&quot;:&quot;sic_email&quot;,&quot;from_name&quot;:&quot;3&quot;,&quot;from_name_param&quot;:&quot;sic_nome&quot;,&quot;subject&quot;:&quot;Formul\u00e1rio de Acesso \u00e0 Informa\u00e7\u00e3o&quot;,&quot;to&quot;:&quot;publicidade@sabinopolis.mg.gov.br&quot;,&quot;message&quot;:&quot;&lt;h3&gt;Solicita\u00e7\u00e3o feita do site da [sitename] para &lt;strong&gt;#sic_orgao_publico#&lt;\/strong&gt;.&lt;\/h3&gt;\r\n&lt;h2&gt;&lt;strong&gt;Protocolo: &lt;span style=\&quot;color: #0000ff;\&quot;&gt;#sic_protocolo#&lt;strong&gt;&lt;span style=\&quot;color: #0000ff;\&quot;&gt;#sic_codigo#&lt;\/span&gt;&lt;\/strong&gt;&lt;\/span&gt;&lt;\/strong&gt;&lt;\/h2&gt;\r\n&lt;p&gt;&lt;strong&gt;Dados do Solicitante&lt;\/strong&gt;&lt;\/p&gt;\r\n&lt;p&gt;Nome: #sic_nome#&lt;br \/&gt;E-mail: #sic_email#&lt;br \/&gt;Telefone: #sic_telefone#&lt;br \/&gt;Perfil: #sic_perfil#&lt;br \/&gt;CNPJ: #sic_cnpj#&lt;br \/&gt;CPF: #sic_cpf#&lt;\/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Endere\u00e7o do Solicitante&lt;\/strong&gt;&lt;\/p&gt;\r\n&lt;p&gt;#sic_endereco#, N\u00ba #sic_numero#, #sic_bairro#, #sic_cidade#-#sic_uf#, #sic_cep#&lt;\/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Especifica\u00e7\u00e3o do Pedido&lt;\/strong&gt;&lt;\/p&gt;\r\n&lt;p&gt;#sic_mensagem#&lt;\/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Forma preferencial de recebimento da resposta&lt;\/strong&gt;&lt;\/p&gt;\r\n&lt;p&gt;#sic_recebimento_da_resposta#&lt;\/p&gt;&quot;,&quot;to_field&quot;:&quot;&quot;,&quot;message_field&quot;:&quot;&quot;,&quot;send_attachment_field&quot;:&quot;&quot;,&quot;attachment_field&quot;:&quot;&quot;,&quot;cc&quot;:&quot;3&quot;,&quot;cc_param&quot;:&quot;sic_email&quot;,&quot;bcc&quot;:&quot;0&quot;,&quot;bcc_param&quot;:&quot;&quot;,&quot;format&quot;:&quot;1&quot;}</options2>
+		<minlength>0</minlength>
+		<maxlength>255</maxlength>
+		<size>32</size>
+		<cols>0</cols>
+		<rows>0</rows>
+		<ordering>0</ordering>
+		<sorting>0</sorting>
+		<divider />
+		<bool>0</bool>
+		<location />
+		<extended />
+		<style />
+		<script />
+		<bool2>0</bool2>
+		<bool3>0</bool3>
+		<bool4>0</bool4>
+		<bool5>0</bool5>
+		<bool6>0</bool6>
+		<bool7>0</bool7>
+		<bool8>1</bool8>
+		<css />
+		<attributes />
+		<storage>standard</storage>
+		<storage_location>joomla_article</storage_location>
+		<storage_table>#__cck_store_form_sic</storage_table>
+		<storage_field>sic_email_envia</storage_field>
+		<storage_field2 />
+		<storage_params />
+		<storages />
+		<checked_out>0</checked_out>
+		<checked_out_time>0000-00-00 00:00:00</checked_out_time>
+	</field>
+</cck>

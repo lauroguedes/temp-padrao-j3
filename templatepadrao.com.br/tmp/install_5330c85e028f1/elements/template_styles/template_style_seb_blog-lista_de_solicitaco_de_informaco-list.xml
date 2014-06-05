@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cck type="template_styles">
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2013 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>SEBLOD 3.x - www.seblod.com</description>
+	<template_style>
+		<id />
+		<template>seb_blog</template>
+		<client_id>0</client_id>
+		<home>0</home>
+		<title>seb_blog - lista_de_solicitaco_de_informaco (list)</title>
+		<params>{&quot;rendering_css_class&quot;:&quot;&quot;,&quot;top_items&quot;:&quot;1&quot;,&quot;top_display&quot;:&quot;renderItem&quot;,&quot;top_display_field_name&quot;:&quot;&quot;,&quot;top_columns&quot;:&quot;1&quot;,&quot;top_column_width&quot;:&quot;0&quot;,&quot;top_column_width_custom&quot;:&quot;50,50&quot;,&quot;top_item_order&quot;:&quot;0&quot;,&quot;top_item_height&quot;:&quot;1&quot;,&quot;middle_items&quot;:&quot;5&quot;,&quot;middle_display&quot;:&quot;renderItem&quot;,&quot;middle_display_field_name&quot;:&quot;&quot;,&quot;middle_columns&quot;:&quot;1&quot;,&quot;middle_column_width&quot;:&quot;0&quot;,&quot;middle_column_width_custom&quot;:&quot;50,50&quot;,&quot;middle_item_order&quot;:&quot;0&quot;,&quot;middle_item_height&quot;:&quot;1&quot;,&quot;bottom_items&quot;:&quot;&quot;,&quot;bottom_display&quot;:&quot;renderItem&quot;,&quot;bottom_display_field_name&quot;:&quot;&quot;,&quot;bottom_columns&quot;:&quot;3&quot;,&quot;bottom_column_width&quot;:&quot;0&quot;,&quot;bottom_column_width_custom&quot;:&quot;33,34,33&quot;,&quot;bottom_item_order&quot;:&quot;0&quot;,&quot;bottom_item_height&quot;:&quot;1&quot;,&quot;cck_client_item&quot;:&quot;1&quot;,&quot;debug&quot;:&quot;0&quot;,&quot;item_margin&quot;:&quot;8&quot;}</params>
+	</template_style>
+</cck>

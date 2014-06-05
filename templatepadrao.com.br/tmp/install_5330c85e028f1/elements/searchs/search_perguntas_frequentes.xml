@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cck type="searchs">
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2013 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>SEBLOD 3.x - www.seblod.com</description>
+	<search>
+		<id />
+		<title>Perguntas Frequentes</title>
+		<name>perguntas_frequentes</name>
+		<alias />
+		<folder>portal_transparecia</folder>
+		<content>1</content>
+		<template_search>seb_one - perguntas_frequentes (search)</template_search>
+		<template_filter>seb_one</template_filter>
+		<template_list>seb_table - perguntas_frequentes (list)</template_list>
+		<template_item>seb_one</template_item>
+		<description />
+		<access>1</access>
+		<published>1</published>
+		<options>{&quot;limit&quot;:&quot;0&quot;,&quot;cache&quot;:&quot;0&quot;,&quot;stages_optional&quot;:&quot;&quot;,&quot;cache2&quot;:&quot;0&quot;,&quot;pagination&quot;:&quot;15&quot;,&quot;debug&quot;:&quot;&quot;,&quot;sef&quot;:&quot;&quot;,&quot;prepare_content&quot;:&quot;&quot;,&quot;auto_redirect&quot;:&quot;0&quot;,&quot;ordering&quot;:&quot;&quot;,&quot;show_list_title&quot;:&quot;1&quot;,&quot;tag_list_title&quot;:&quot;h2&quot;,&quot;class_list_title&quot;:&quot;&quot;,&quot;show_list_desc&quot;:&quot;1&quot;,&quot;show_form&quot;:&quot;1&quot;,&quot;show_items_number&quot;:&quot;0&quot;,&quot;label_items_number&quot;:&quot;Results&quot;,&quot;class_items_number&quot;:&quot;total&quot;,&quot;show_pages_number&quot;:&quot;1&quot;,&quot;show_pagination&quot;:&quot;0&quot;,&quot;class_pagination&quot;:&quot;pagination&quot;,&quot;message_style&quot;:&quot;message&quot;,&quot;action&quot;:&quot;0&quot;,&quot;message&quot;:&quot;A pesquisa n\u00e3o retornou nenhum resultado!&quot;,&quot;show_list_desc_no_result&quot;:&quot;1&quot;}</options>
+		<location />
+		<sef_route />
+		<storage_location />
+		<version>19</version>
+		<checked_out>0</checked_out>
+		<checked_out_time>0000-00-00 00:00:00</checked_out_time>
+	</search>
+	<fields>
+		<field1 client="list" ordering="1" label="#" variation="" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" match_collection="" match_mode="" match_options="" match_value="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="column-a">fac_image</field1>
+		<field2 client="list" ordering="2" label="" variation="" variation_override="" required="" required_alert="" validation="" validation_options="" link="content" link_options="" live="" live_options="" live_value="" markup_class="" match_collection="" match_mode="" match_options="" match_value="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="column-b">fac_pergunta</field2>
+		<field3 client="list" ordering="3" label="" variation="" variation_override="" required="" required_alert="" validation="" validation_options="" link="cck_form" link_options="" live="" live_options="" live_value="" markup_class="" match_collection="" match_mode="" match_options="" match_value="" typo="html" typo_label="0" typo_options="{&quot;html&quot;:&quot;&lt;span class=\&quot;btn btn-success\&quot;&gt;&lt;i class=\&quot;icon-edit\&quot;&gt;&lt;/i&gt;&lt;/span&gt;&quot;}" stage="0" access="3" computation="" computation_options="" conditional="" conditional_options="" position="column-c">editar</field3>
+		<field4 client="order" ordering="1" label="" variation="" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" match_collection="" match_mode="DESC" match_options="" match_value="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">art_id</field4>
+		<field5 client="search" ordering="1" label="" variation="hidden" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="perguntas_frequentes" markup_class="" match_collection="" match_mode="exact" match_options="" match_value="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">cck</field5>
+		<field6 client="search" ordering="2" label="" variation="" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" match_collection="" match_mode="" match_options="" match_value="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">fac_pergunta</field6>
+		<field7 client="search" ordering="3" label="Pesquisar" variation="" variation_override="" required="" required_alert="" validation="" validation_options="" link="" link_options="" live="" live_options="" live_value="" markup_class="" match_collection="" match_mode="" match_options="" match_value="" typo="" typo_label="0" typo_options="" stage="0" access="1" computation="" computation_options="" conditional="" conditional_options="" position="mainbody">button_search</field7>
+	</fields>
+	<positions>
+		<position1 client="" legend="" variation="" variation_options="" width="" height="" css="">column-p</position1>
+		<position2 client="list" legend="" variation="" variation_options="" width="" height="" css="">column-a</position2>
+		<position3 client="list" legend="" variation="" variation_options="" width="" height="" css="">column-b</position3>
+		<position4 client="list" legend="" variation="" variation_options="" width="" height="" css="">column-c</position4>
+		<position5 client="list" legend="" variation="" variation_options="" width="" height="" css="">column-p</position5>
+		<position6 client="order" legend="" variation="" variation_options="" width="" height="" css="">mainbody</position6>
+		<position7 client="search" legend="" variation="" variation_options="" width="" height="" css="">clear</position7>
+		<position8 client="search" legend="" variation="" variation_options="" width="" height="" css="">mainbody</position8>
+	</positions>
+</cck>
